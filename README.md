@@ -31,13 +31,13 @@ setup.sh
 urls.txt
 
 Usage:
- 
-    //  1 st terminal 
+  //  1 st terminal 
 1. cd KIET-Open_RedireX
 2. sudo su - enter into root terminal for administative privileges
 3. ls 
 4. python3 KIET-CyberCrew-RedireX.py -k FUZZ -c 1 < urls.txt
-    // 2nd terminal
+
+   // 2nd terminal
 1. cd KIET-Open_RedireX
 2. sudo su - enter into root terminal for administative privileges
 3. python server.py
@@ -70,6 +70,7 @@ Advanced Options
   -o OUTPUT, --output OUTPUT
                         Output file to save results
   -v, --verbose         Enable verbose output
+
 
 Example:
 Create a file named urls.txt with potential vulnerable URLs:
