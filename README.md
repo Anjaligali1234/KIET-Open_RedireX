@@ -18,14 +18,15 @@
 
 ## 📦 Installation
 all necessary tools, requirements update and upgrade to latest versions upto date 2025
-python3 
-Virtual Box
-Kali Linux
-git - install on kali
 
-git clone https://github.com/Anjaligali1234/KIET-Open_RedireX.git
-cd KIET-Open_RedireX
-pip install -r requirements.txt
+1. python3 
+2. Virtual Box
+3. Kali Linux
+4. git - install on kali
+
+5. git clone https://github.com/Anjaligali1234/KIET-Open_RedireX.git
+6. cd KIET-Open_RedireX
+7. pip install -r requirements.txt
 
 📁 File Structure : List of files and folders in KIET-Open_RedireX main directory
 
@@ -41,7 +42,8 @@ KIET-Open_RedireX/
 └── urls.txt
 
 🛠️ Usage
-✅ Terminal 1 (Main Scanner)
+
+ ✅ Terminal 1 (Main Scanner)
 
 cd KIET-Open_RedireX
 sudo su  # Enter root terminal
@@ -59,7 +61,9 @@ python server.py
 Your urls.txt file should contain URLs where FUZZ marks the injection point for the payloads.
 
 https://example.com/redirect?url=FUZZ
+
 https://example.com/redirect.php?url=FUZZ
+
 https://example.com/redirect?next=FUZZ
 
 Where:
@@ -85,10 +89,11 @@ Option	Description
 Create a file named urls.txt with potential vulnerable URLs:
 
 https://example.com/redirect?url=FUZZ
+
 https://vulnerable-site.com/redirect?next=FUZZ
 
 
-Run the scanner:
+Run the Fuzzing Scanner:
 
 python3 KIET-CyberCrew-RedireX.py -k FUZZ -c 1 < urls.txt
 Review the results to identify vulnerable endpoints.
