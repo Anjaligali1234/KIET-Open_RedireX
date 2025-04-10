@@ -46,13 +46,17 @@ KIET-Open_RedireX/
  ✅ Terminal 1 (Main Scanner)
 
 cd KIET-Open_RedireX
+
 sudo su  # Enter root terminal
+
 python3 KIET-CyberCrew-RedireX.py -k FUZZ -c 1 < urls.txt
 
 ✅ Terminal 2 (Local Redirect Server)
 
 cd KIET-Open_RedireX
+
 sudo su   # Enter root terminal
+
 python server.py
 
 
@@ -96,6 +100,7 @@ https://vulnerable-site.com/redirect?next=FUZZ
 Run the Fuzzing Scanner:
 
 python3 KIET-CyberCrew-RedireX.py -k FUZZ -c 1 < urls.txt
+
 Review the results to identify vulnerable endpoints.
 
 🤝 Contributing
